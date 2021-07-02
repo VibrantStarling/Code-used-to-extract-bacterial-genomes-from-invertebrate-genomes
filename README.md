@@ -1,8 +1,20 @@
 # Code-used-to-extract-bacterial-genomes-from-invertebrate-genomes
 Here you'll find all the commands used to construct genomes from short read archive sequences in the paper (tba). 
 
-**This is not meant to be One smoothly functioning piece of code as it is a mish mash of several .sh files, R code, python, and straight up console commands. You have been warned.**
+*Most files here are not meant to be one smoothly functioning piece of code as they are a mish mash of several .sh files, R code, python, and straight up console commands that were used across several environments on a remote server. Do not be suprised if you need to work through them line by line to make them work. This may be fixed in the future, but no promises*
 
+***You have been warned.***
+
+# What's in each file?
+* `assembly-and-checkm.sh`  - This file contains the commands used to assemble, map, bin, and quality check resulting metagenomicly assembled genomes 
+
+* `refine-bins.sh` - code used to grab contigs between 1000-2500 base, identifiy them, clean them, join them with a copy of the original bacteria bin, and then quality check them.
+
+* `sra-dowload.pl` - pre-written perl script for mass downloading sequences by SRA number from the European Nucleotide Archive that is used within `assembly-checkm.sh` . This one should run smoothly out of the box because it was written to.
+
+* `pangenomics-and-phylogenomics.sh` - all code used to construct and analyse the genomes. Includes instrctions for: pangenome construction, phylogenetic analysis, network construction and metabolic prediction.
+
+* `pheatmap-R-script.R` - R code used to make the metabolic heatmaps from metabolic predictions
 
 # Languages and Tools Used
 
@@ -35,9 +47,7 @@ Here you'll find all the commands used to construct genomes from short read arch
   ## Diagram annotation
   <p>&#9659 <a href="https://inkscape.org/" > Inkscape </a> - vector software, used to annotate figures for clarity and uniform aesthetic
 
-# What's in each file?
-  **assembly-and-checkm.sh**  - This file contains the commands used to assemble, map, bin, and quality check resulting metagenomicly assembled genomes 
-  
+
 
 # Where to find me
 <p align="left">
