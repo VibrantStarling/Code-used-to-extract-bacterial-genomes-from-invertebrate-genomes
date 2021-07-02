@@ -34,6 +34,8 @@ Here you'll find all the commands used to construct genomes from short read arch
   <p>&#9659 <a href="http://www.iqtree.org/">IQ-Tree v2.1.2</a> phylogeny construction and model finding</p>
   <p>&#9659 <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/splitstree/">SplitsTree 4 </a> - network construction and visualisiation</p>
   <p>&#9659 <a href="http://tree.bio.ed.ac.uk/software/figtree/" > FigTree v1.4.4 </a> - phylogeny visulaisation and editing software</p>
+  <p>&#9659 <a href="https://www.maths.otago.ac.nz/~dbryant/software/phimanual.pdf" > PhiPack </a> - Phi score caculator for assessing greticulate evolution</p>
+  <p>&#9659 <a href="https://petrov.stanford.edu/software/src/muscle3.6/muscle3.6.html" > MUSCLE v3.6 </a> - Muscle alignment algorithm</p>
 
   ## Metabolic analysis
   <p>&#9659 <a href = "https://github.com/UCSC-LoweLab/tRNAscan-SE" > tRNAscan-SE </a> - tRNA scanning software</p>
@@ -42,7 +44,7 @@ Here you'll find all the commands used to construct genomes from short read arch
 
   ## Genome annotation
   <p>&#9659 <a href="https://github.com/tseemann/prokka">PROKKA v1.14.6</a> - whole genome annotation softwarer</p>
-  <p>&#9659 <a href = "https://interproscan-docs.readthedocs.io/en/latest/Introduction.html" >Interproscan v5.40-77 </a> protein function identification, used pfam database </p>
+  <p>&#9659 <a href = "https://interproscan-docs.readthedocs.io/en/latest/Introduction.html" >Interproscan v5.40-77 </a> - protein function identification, used pfam database </p>
 
   ## Diagram annotation
   <p>&#9659 <a href="https://inkscape.org/" > Inkscape </a> - vector software, used to annotate figures for clarity and uniform aesthetic
