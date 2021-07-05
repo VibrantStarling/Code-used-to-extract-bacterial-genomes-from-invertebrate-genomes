@@ -14,7 +14,7 @@ Each file contains code and commentary on what the code should do. I've tried to
 
 * `pangenomics-and-phylogenomics.sh` - all code used to construct and analyse the genomes. Includes instrctions for: pangenome construction, phylogenetic analysis, network construction and metabolic prediction. This one needs to be worked through manually otherwise it will break.
 
-* `pheatmap-R-script.R` - R code used to make the metabolic heatmaps from metabolic predictions. Needs tsv or excel files to run. I reccomend copy and pasting the code you need.
+* `pheatmap-R-script.R` - R code used to make the metabolic heatmaps from metabolic predictions with pheatmap. Needs a tsv or excel file to run containing metabolic function in the first row followed by columns of pathway completion scores for each bacteria genome. I reccomend copy and pasting the code you need.
 
 # Languages and Tools Used
 
