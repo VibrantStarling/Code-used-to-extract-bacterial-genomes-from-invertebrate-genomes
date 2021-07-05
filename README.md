@@ -1,5 +1,5 @@
 # Code-used-to-extract-bacterial-genomes-from-invertebrate-genomes
-Here you'll find all the commands used to construct genomes from short read archive sequences in the paper (tba). 
+Here you'll find all the commands used to construct genomes from short read archive sequences in the paper (tba) that were not written out in full for readability.
 
 *Files here are not meant to be one smoothly functioning piece of code as they are a mish mash of several .sh files, R code, and straight up console commands that were used across several environments on a remote server. Do not be suprised if you need to work through them line by line to make them work. In fact, I recommend it.*
 
@@ -14,7 +14,7 @@ Each file contains code and commentary on what the code should do. I've tried to
 
 * `pangenomics-and-phylogenomics.sh` - all code used to construct and analyse the genomes. Includes instrctions for: pangenome construction, phylogenetic analysis, network construction and metabolic prediction. This one needs to be worked through manually otherwise it will break.
 
-* `pheatmap-R-script.R` - R code used to make the metabolic heatmaps from metabolic predictions with pheatmap. Needs a tsv or excel file to run containing metabolic function in the first row followed by columns of pathway completion scores for each bacteria genome. I reccomend copy and pasting the code you need.
+* `pheatmap-R-script.R` - R code used to make the metabolic heatmaps from metabolic predictions with pheatmap. Needs a tsv or excel file to run containing metabolic function in the first row followed by columns of pathway completion scores for each bacteria genome. I recommend copy and pasting the code you need.
 
 # Languages and Tools Used
 
