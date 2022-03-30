@@ -1,3 +1,5 @@
+<a href="https://zenodo.org/badge/latestdoi/381981751"><img src="https://zenodo.org/badge/381981751.svg" alt="DOI"></a>
+
 # Code-used-to-extract-bacterial-genomes-from-invertebrate-genomes
 Here you'll find all the commands used to construct genomes from short read archive sequences in the paper (tba) that were not written out in full for readability.
 
