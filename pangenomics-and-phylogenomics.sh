@@ -39,8 +39,8 @@ anvi-compute-genome-similarity -e external-genomes.txt \
 anvi-get-sequences-for-gene-clusters -p PAN.db -g GENOMES.db --min-num-genomes-gene-cluster-occurs 104 --max-num-genes-from-each-genome 1 --concatenate-gene-clusters -o core-gene-clusters-amino-acids.fas
 
 ## making phylogenetic trees
-iqtree -s core-gene-clusters-amino-acids.fas -m MFP -nt AUTO -bb 1000 – alrt 1000
-iqtree -s ribosomal-gene-clusters-amino-acids.fas -m MFP -nt AUTO -bb 1000 – alrt 1000
+iqtree -s core-gene-clusters-amino-acids.fas -m MFP -nt AUTO -bb 1000 -alrt 1000
+iqtree -s ribosomal-gene-clusters-amino-acids.fas -m MFP -nt AUTO -bb 1000 -alrt 1000
 
 ## assessing reticulate evolution
 # extract core gene cluster names and functions from anvi’o summary
